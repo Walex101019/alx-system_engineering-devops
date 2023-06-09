@@ -1,0 +1,2 @@
+#!/bin/bash
+chgrp "$(getent group "school" | cut -d: -f3)" "hello"
